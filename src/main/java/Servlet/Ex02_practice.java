@@ -34,7 +34,6 @@ public class Ex02_practice extends HttpServlet {
 		}
 		
 		
-		
 	}
 
 }
