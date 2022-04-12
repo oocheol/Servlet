@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-// URL Mapping : Servlet 별명
+// URL Mapping : Servlet 별명 (고유값 > 중복되면 안됨)
 @WebServlet("/Ex01_request")
 							// HttpServlet 클래스를 상속받음
 public class Ex01_request extends HttpServlet {

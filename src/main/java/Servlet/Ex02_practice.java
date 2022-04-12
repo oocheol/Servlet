@@ -18,6 +18,7 @@ public class Ex02_practice extends HttpServlet {
 		System.out.println("들어온 사람 : "+ client_ip);
 		
 		// 응답할 페이지에 대한 설정
+		// text/plain 설정시 > out.print('') 문자 그대로 출력
 		response.setContentType("text/html; charset=euc-kr");
 		
 		// 웹에 출력하기 -> 사용자에게 데이터를 전달할 수 있는 통로
