@@ -5,11 +5,22 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="ex05makeTable"> 
+
+<!-- 
+	데이터 전송방식 2가지
+	1. Get : 쿼리스트링 (Query String)
+		form 태그의 기본값이 Get
+		form 태그의 method 속성을 Get으로 주면 됨
+		
+	2. Post : 패킷의 Body
+	
+ -->
+
+<form action="ex05makeTable" method="Post"> 
 	
 		<h1>make Table</h1>
 		
-		몇 개의 방을 만들까요? <input type="text" name='num'><br>
+		몇 개의 방을 만들까요? <input type="text" name='num'>
 		
 		<button>SEND</button>
 </body>
